@@ -1,26 +1,31 @@
 {
   "name": "how-to-break-the-law",
+  "author": "ru44",
+  "license": "MIT",
+  "keywords": [
+    "flooding",
+    "DDoS"
+  ],
   "version": "1.69.1",
-  "description": "",
+  "description": "Flooderate is a tool designed to automate the process of flooding a target with requests, useful for testing and stress scenarios.",
   "main": "app.js",
   "type": "module",
   "scripts": {
     "start": "node app.js",
-    "dev": "nodemon app.js"
+    "dev": "nodemon app.js",
+    "flooderate": "node flooderate.js"
+  },
+  "dependencies": {
+    "inquirer": "12.6.3",
+    "nodemon": "^3.1.4",
+    "axios": "^1.7.7"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/IFox99/How-to-break-the-law.git"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
   "bugs": {
     "url": "https://github.com/IFox99/How-to-break-the-law/issues"
   },
-  "homepage": "https://github.com/IFox99/How-to-break-the-law#readme",
-  "dependencies": {
-    "inquirer": "^10.1.8",
-    "nodemon": "^3.1.4"
-  }
+  "homepage": "https://github.com/IFox99/How-to-break-the-law#readme"
 }
